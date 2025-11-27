@@ -6,7 +6,5 @@
     "start": "cd vite-project && npm run dev",
     "build": "cd vite-project && npm ci && npm run build"
   },
-  "devDependencies": {
-    "remix": "^1.18.0"
-  }
+  
 }

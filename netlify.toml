@@ -1,0 +1,8 @@
+# Netlify configuration to ensure builds run via npm (so node_modules/.bin is on PATH)
+[build]
+  # Run the root build script which navigates into the vite-project and builds it
+  command = "npm run build"
+  # Vite default output
+  publish = "vite-project/dist"
+
+# Note: Set the VITE_OPENAI_API_KEY in the Netlify UI under Site settings → Build & deploy → Environment
