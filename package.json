@@ -2,6 +2,8 @@
   "name": "repo-root-builder",
   "private": true,
   "scripts": {
+    "dev": "cd vite-project && npm run dev",
+    "start": "cd vite-project && npm run dev",
     "build": "cd vite-project && npm ci && npm run build"
   },
   "devDependencies": {
