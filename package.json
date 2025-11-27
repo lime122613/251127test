@@ -3,5 +3,8 @@
   "private": true,
   "scripts": {
     "build": "cd vite-project && npm ci && npm run build"
+  },
+  "devDependencies": {
+    "remix": "^1.18.0"
   }
 }
